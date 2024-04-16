@@ -1,0 +1,70 @@
+﻿<!-- Start Header Area -->
+
+<header class="header_area sticky-header">
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light main_box">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a class="navbar-brand logo_h" asp-controller="Home" asp-action="Index"><img style="width: 100px;height: 70px;" src="~/img/logonew2.jpg" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto">
+						<li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+						<li class="nav-item "><a class="nav-link" asp-controller="Product" asp-action="ProductList">Danh sách sân</a></li>
+						<li class="nav-item"><a class="nav-link" asp-controller="Blog" asp-action="Index">Blog</a></li>
+						<li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Contact">Liên Hệ</a></li>
+						<li class="nav-item submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle ti-user" data-toggle="dropdown" role="button" aria-haspopup="true"
+							   aria-expanded="false"></a>
+							<ul class="dropdown-menu">
+
+								@if (Context.Session.GetInt32("RoleSession") == 1)
+								{
+
+									<li class="nav-item"><a class="nav-link" asp-action="ViewProfile" asp-controller="Profile" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Thông tin tài khoản</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="ViewAllField" asp-controller="CrudField">Quản lý sân</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="ChangePassWord" asp-controller="Login" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Đổi mật khẩu</a></li>
+
+									<li class="nav-item"><a class="nav-link" asp-action="ViewHistoryTranAdmin" asp-controller="Order" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Lịch sử giao dịch</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="DisplayListBooking" asp-controller="Product" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Danh sách đặt hộ</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="DisplayListRefund" asp-controller="Order" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Danh sách hoàn tiền và thanh toán</a></li>
+
+
+									
+									<li class="nav-item"><a class="nav-link" asp-action="ShowData" asp-controller="Statistic">Thống kê giao dịch</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="Logout" asp-controller="Login">Đăng xuất</a></li>
+
+								}
+								else if (Context.Session.GetInt32("RoleSession") == 2)
+								{
+									<li class="nav-item"><a class="nav-link" asp-action="ViewProfile" asp-controller="Profile" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Thông tin tài khoản</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="ChangePassWord" asp-controller="Login" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Đổi mật khẩu</a></li>
+
+									<li class="nav-item"><a class="nav-link" asp-action="ViewHistory" asp-controller="Order" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Lịch sử giao dịch</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="DisplayListBooking" asp-controller="Product" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Danh sách các lần thuê sân</a></li>
+
+
+							
+									<li class="nav-item"><a class="nav-link" asp-action="Logout" asp-controller="Login">Đăng xuất</a></li>
+								}
+								else
+								{
+									<li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Login">Đăng Nhập</a></li>
+									<li class="nav-item"><a class="nav-link" asp-action="SignUp" asp-controller="Login">Đăng Ký</a></li>
+								}
+							</ul>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- End Header Area -->

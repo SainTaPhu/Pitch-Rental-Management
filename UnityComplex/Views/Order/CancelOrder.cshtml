@@ -1,0 +1,218 @@
+﻿@using System.Globalization
+@model UnityComplex.ViewComponents.UserBookPayment;
+@{
+	ViewData["Title"] = "CancelOrder";
+}
+
+@if (Context.Session.GetInt32("RoleSession") == 2)
+{
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>Gửi yêu cầu huỷ đặt sân</h1>
+					<nav class="d-flex align-items-center">
+						<a href="index.html">Trang Chủ<span class="lnr lnr-arrow-right"></span></a>
+						<a href="#">Đặt Sân<span class="lnr lnr-arrow-right"></span></a>
+						<a href="single-product.html">Thông tin sân</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+	<!--================Order Details Area =================-->
+	@if (TempData.ContainsKey("Mess"))
+	{
+		<div id="boc">
+			<div id="alertMessage" class="alert alert-success slide-from-right">
+				@TempData["Mess"]
+			</div>
+		</div>
+
+	}
+	@if (TempData.ContainsKey("MessFail"))
+	{
+		<div id="boc">
+			<div id="alertMessage" class="alert alert-danger slide-from-right">
+				@TempData["MessFail"]
+			</div>
+		</div>
+	}
+	<section class="order_details section_gap">
+		<div class="container">
+			<h3 class="title_confirmation">Yêu Cầu Hủy Sân</h3>
+			<div class="form-container">
+				<form id="cancel-form" asp-action="CancelBooking" asp-controller="Product">
+
+					<input name="idPayment" value="@Model.Payment.IdPayment" style="display : none;">
+
+					<input name="idUser" value="@Context.Session.GetInt32("IDSession")" style="display : none;">
+					<div class="form-group">
+						<label for="order-id">ID Đơn Hàng:</label>
+						<input type="text" id="order-id" name="orderId" value="@Model.Booking.IdBooking" readonly>
+					</div>
+					@{
+						string formattedDate = Model.Booking.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+						string formattedTime = Model.Booking.StartTime.ToString();
+						string format = "dd/MM/yyyy HH:mm:ss";
+						string dateTimeString = formattedDate + " " + formattedTime;
+						DateTime dateTime = DateTime.ParseExact(dateTimeString, format, CultureInfo.InvariantCulture);
+
+						DateTime dateNow = DateTime.Now;
+						TimeSpan duration = dateTime.Subtract(dateNow);
+						double priceRemain = 0;
+						bool isGreaterThanOneDay = duration.TotalDays > 1;
+						if (isGreaterThanOneDay)
+						{
+
+							priceRemain = (double)Model.Payment.Deposit;
+
+						}
+						else
+						{
+
+							priceRemain = (double)Model.Payment.Deposit - (double)((double)Model.price * 0.15);
+						}
+						
+					}
+					<div class="form-group">
+						<label for="refund-amount">Ngày giờ thuê : </label>
+						<input type="text" id="date" name="Date" value="@formattedDate   @Model.Booking.StartTime - @Model.Booking.EndTime" readonly>
+					</div>
+					<div class="form-group">
+						<label for="refund-amount">Số Tiền Hoàn Lại: </label>
+						<input type="text" id="refund-amount" name="refundAmount" value="@priceRemain" readonly>
+					</div>
+
+					<div class="form-group">
+						<label for="accNumber">Số Tài Khoản:</label>
+						<input type="text" id="accNumber" name="accountNumber" required>
+						<p id="error-message" style="color : red;"></p>
+					</div>
+					<div class="form-group">
+						<label for="BankName">Tên ngân hàng:</label>
+						<input type="text" id="BankName" name="BankName" value="VNPAY" readonly>
+					</div>
+					<div class="form-group">
+						<label for="NameAcc">Tên chủ tài khoản:</label>
+						<input type="text" id="NameAcc" name="NameAcc" required>
+					</div>
+					<div class="form-group">
+						<label for="cancellation-reason">Lý Do Hủy:</label>
+						<textarea id="cancellation-reason" name="cancellationReason"></textarea>
+					</div>
+					<div class="form-group">
+						<button type="submit">Xác Nhận Hủy Sân</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+}
+else
+{
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>Xác nhận đã hoàn tiền</h1>
+					<nav class="d-flex align-items-center">
+						<a href="index.html">Trang Chủ<span class="lnr lnr-arrow-right"></span></a>
+						<a href="#">Đặt Sân<span class="lnr lnr-arrow-right"></span></a>
+						<a href="single-product.html">Thông tin sân</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	@if (TempData.ContainsKey("Mess"))
+	{
+		<div id="boc">
+			<div id="alertMessage" class="alert alert-success slide-from-right">
+				@TempData["Mess"]
+			</div>
+		</div>
+
+	}
+	@if (TempData.ContainsKey("MessFail"))
+	{
+		<div id="boc">
+			<div id="alertMessage" class="alert alert-danger slide-from-right">
+				@TempData["MessFail"]
+			</div>
+		</div>
+	}
+
+	<section class="order_details section_gap">
+		<div class="container">
+			<h3 class="title_confirmation">Xác nhận hoàn tiền</h3>
+			<div class="form-container">
+				<form id="cancel-form" asp-action="RefundBook" asp-controller="Product">
+
+					<input name="idPayment" value="@Model.Payment.IdPayment" style="display : none;">
+
+
+					<div class="form-group">
+						<label for="order-id">ID Đơn Hàng:</label>
+						<input type="text" id="order-id" name="orderId" value="@Model.Booking.IdBooking" readonly>
+					</div>
+					<div class="form-group">
+						<label for="refund-amount">Ngày giờ thuê : </label>
+						<input type="text" id="date" name="Date" value="@Model.Booking.Date    @Model.Booking.Status - @Model.Booking.EndTime" readonly>
+					</div>
+					<div class="form-group">
+						<label for="refund-amount">Số Tiền Hoàn Lại: </label>
+						<input type="text" id="refund-amount" name="refundAmount" value="@( (int)Model.Payment.Deposit - ( (int)Model.price *0.3) )" readonly>
+					</div>
+
+					<div class="form-group">
+						<label for="refund-amount">Số tài khoản: </label>
+						<input type="text" id="refund-amount" name="refundAmount" value="@( (int)Model.Payment.Deposit - ( (int)Model.price *0.3) )" readonly>
+					</div>
+					<div class="form-group">
+						<button type="submit">Xác Nhận Hủy Sân</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+}
+<script>
+
+	var inputField = document.getElementById('accNumber');
+	var errorMessage = document.getElementById('error-message');
+
+	// Thêm sự kiện keydown vào inputField
+	inputField.addEventListener('keydown', function (event) {
+		// Lấy mã ASCII của ký tự vừa nhập
+		var charCode = event.which || event.keyCode;
+		var inputValue = inputField.value;
+
+		// Kiểm tra xem độ dài của chuỗi nhập vào đã đạt tối đa là 10 ký tự chưa
+		if (inputValue.length >= 10 && charCode != 8) {
+			// Nếu độ dài đã đạt tối đa và người dùng không ấn nút backspace,
+			// ngăn việc nhập và hiển thị thông báo lỗi
+			event.preventDefault();
+			errorMessage.textContent = 'Chỉ được nhập tối đa 10 ký tự.';
+		} else {
+			// Cho phép sử dụng nút backspace (mã ASCII 8) và ký tự số từ 0 đến 9
+			if ((charCode >= 48 && charCode <= 57) || charCode == 8) {
+				// Nếu là số hoặc nút backspace, không làm gì cả
+				errorMessage.textContent = '';
+			} else {
+				// Nếu không phải là số hoặc nút backspace, ngăn người dùng nhập và hiển thị thông báo lỗi
+				event.preventDefault();
+				errorMessage.textContent = 'Vui lòng chỉ nhập số.';
+			}
+		}
+	});
+
+
+	// Tự động ẩn div sau 3 giây
+	setTimeout(function () {
+		document.getElementById("alertMessage").style.display = "none";
+	}, 3000);
+
+</script>
+

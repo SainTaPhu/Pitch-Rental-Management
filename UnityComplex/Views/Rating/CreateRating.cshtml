@@ -1,0 +1,49 @@
+﻿@model UnityComplex.Models.Rating
+@{
+    ViewData["Title"] = "CreateRating";
+}
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Đánh Giá Sân</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+
+<section class="blog_categorie_area">
+</section>
+
+<div class="col-lg-12 container-rating" style="margin-bottom: 100px">
+    <div class="review_box">
+        <form class="contact_form" asp-action="CreateRating" method="post" id="contactForm" novalidate="novalidate" >
+            <h1>Thêm Đánh Giá</h1>
+            <p>Đánh Giá Sao:</p>
+            <ul class="list user_star_rating">
+                <li><i class="fa fa-star" aria-hidden="true" value="1"></i></li>
+                <li><i class="fa fa-star-o" aria-hidden="true" value="2"></i></li>
+                <li><i class="fa fa-star-o" aria-hidden="true" value="3"></i></li>
+                <li><i class="fa fa-star-o" aria-hidden="true" value="4"></i></li>
+                <li><i class="fa fa-star-o" aria-hidden="true" value="5"></i></li>
+            </ul>
+            <input type="hidden" name="ratingValue" id="ratingValue" value="1"> @* Trường ẩn lưu giá trị đánh giá *@ 
+            <input type="hidden" name="idField" id="idField" value="@ViewData["IdField"]"> @* Trường ẩn lưu IdField *@
+            <input type="hidden" name="idUser" id="idUser" value="@ViewData["IdUser"]"> @* Trường ẩn lưu IdUser *@
+            <input type="hidden" name="idBooking" id="idBooking" value="@ViewData["IdBooking"]"> @* Trường ẩn lưu IdBooking *@
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" name="comment" id="comment" rows="1" placeholder="Bình Luận" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập bình luận về sân'"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12 text-right">
+                    <button type="submit" value="submit" class="primary-btn">Đánh Giá</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

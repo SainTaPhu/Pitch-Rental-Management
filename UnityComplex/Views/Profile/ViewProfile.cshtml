@@ -1,0 +1,64 @@
+﻿@model  UnityComplex.ViewModels.ProfileVM
+@{
+    ViewData["Title"] = "ViewProfile";
+}
+
+<section class="banner-area organic-breadcrumb" style="margin-bottom:30px">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Thông tin người dùng</h1>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================ View Information box arena =================-->
+<section class="view_box_area section_gap">
+    <div class="container">
+        <div class="col-md-12" >
+            <div class="login_form_inner" style="padding-bottom:30px;border:1px solid;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);padding-top: 50px;">
+                <h2>THÔNG TIN NGƯỜI DÙNG</h2>
+                <form class="row login_form" id="viewUserInfoForm" novalidate="novalidate">
+                    
+                    <div class="col-md-12 form-group text-center">
+                        @* <label style="text-align:left" for="userid">ID:</label> *@
+                        <input type="hidden" class="form-control" id="userid" name="userid" placeholder="User ID" readonly value="@Model.UserId">
+                    </div>
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align:left" for="fullName">HỌ VÀ TÊN:</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Full Name" readonly value="@Model.FullName">
+                    </div>
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align:left" for="phonenumber">SỐ ĐIỆN THOẠI:</label>
+                        <input type="text" class="form-control" id="phonenumber" name="phonenumber" placeholder="PhoneNumber" readonly value="@Model.PhoneNumber">
+                    </div>
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align:left" for="email">EMAIL:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" readonly value="@Model.Email">
+                    </div>
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align:left" for="address">ĐỊA CHỈ:</label>
+                        <input type="text" class="form-control" id="address" name="address" placeholder="Address" readonly value="@Model.Address">
+                    </div>
+                    <div class="col-md-12">
+                        <a href="@Url.Action("EditProfile", "Profile", new { idUser = Model.UserId })" class="primary-btn">CHỈNH SỬA THÔNG TIN</a>
+                    </div>
+                </form>
+                <div class="col-md-12 form-group">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success" role="alert">
+                            @TempData["SuccessMessage"]
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

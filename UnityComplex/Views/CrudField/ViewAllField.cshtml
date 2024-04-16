@@ -1,0 +1,122 @@
+﻿@model IEnumerable<UnityComplex.ViewModels.FieldVM>
+@{
+    ViewData["Title"] = "ViewAllField";
+}
+<style>
+	.btn-orange {
+		color: #fff;
+		background-color: #ff7f0e;
+		border-color: #ff7f0e;
+	}
+
+		.btn-orange:hover {
+			color: #fff;
+			background-color: #ff6a00;
+			border-color: #ff6a00;
+		}
+</style>
+<section class="banner-area organic-breadcrumb" style="margin-bottom:100px">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>Danh sách sân đã đăng tải</h1>
+				<nav class="d-flex align-items-center">
+					
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="text-center" style="margin-bottom: 20px;margin-top: -50px">
+	<a href="@Url.Action("AddField", "CrudField")" class="btn btn-lg btn-orange">Thêm sân</a>
+</div>
+<div class="col-md-12 form-group">
+	@if (TempData["SuccessAddFieldMessage"] != null)
+	{
+		<div class="alert alert-success" role="alert">
+			@TempData["SuccessAddFieldMessage"]
+		</div>
+	}
+</div>
+<div class="col-md-12 form-group">
+	@if (TempData["SuccessDeleteFieldMessage"] != null)
+	{
+		<div class="alert alert-success" role="alert">
+			@TempData["SuccessDeleteFieldMessage"]
+		</div>
+	}
+</div>
+<div class="col-md-12 form-group">
+	@if (TempData["SuccessUpdateFieldMessage"] != null)
+	{
+		<div class="alert alert-success" role="alert">
+			@TempData["SuccessUpdateFieldMessage"]
+		</div>
+	}
+</div>
+
+<div class="container">
+	<div class="row">
+		<!-- Start Best Seller -->
+		<section class="lattest-product-area pb-40 category-list">
+			<div class="row">
+				<!-- single product -->
+				@foreach (var item in Model){
+				<div class="col-lg-3 col-md-6">
+					<div class="single-product">
+							<a asp-action="ProductDetail" asp-controller="Product" asp-route-idField="@item.IdField" asp-route-idUser="@Context.Session.GetInt32("IDSession")"><img class="img-fluid" style="width: 250px; height:250px" src="~/img/@item.Images.FirstOrDefault()" alt=""></a>
+						<div class="product-details">
+								<h6>
+									<a asp-action="ProductDetail" asp-controller="Product" asp-route-idField="@item.IdField" asp-route-idUser="@Context.Session.GetInt32("IDSession")">@item.FieldName</a>
+								</h6>
+								<div class="price">
+									<h6>@item.MorningPrice <span>VND</span></h6>
+									<h6>-</h6>
+									<h6>@item.AfternoonPrice <span>VND</span></h6>
+								</div>
+								<div class="prd-bottom" style="display: flex; align-items: center;">
+									<a href="@Url.Action("UpdateField", "CrudField", new { id = item.IdField })" class="btn btn-primary" style="margin-right:10px">Chỉnh sửa sân</a>
+									<form id="deleteForm_@item.IdField" asp-action="DeleteField" asp-route-id="@item.IdField" method="post" onclick="confirmDelete(event, @item.IdField)">
+										<input type="submit" value="Xóa Sân" class="btn btn-danger" />
+								</form>
+							</div>
+						</div>
+							<p>@item.Decription</p>
+					</div>
+				</div>
+				}
+		</section>
+
+		<!-- End Best Seller -->
+		<!-- Start Filter Bar -->
+		<!-- End Filter Bar -->
+
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script>
+	function confirmDelete(event, id) {
+		event.preventDefault(); // Prevent the default form action
+
+		Swal.fire({
+			title: "Bạn có chắc chắn muốn xóa sân?",
+			text: "Bạn sẽ không thể hoàn tác!",
+			icon: "warning",
+			showCancelButton: true,
+			confirmButtonColor: "#3085d6",
+			cancelButtonColor: "#d33",
+			confirmButtonText: "Có!",
+			cancelButtonText: "Không!"
+		}).then((result) => {
+			if (result.isConfirmed) {
+				// If confirmed, submit the form to delete the field
+				document.getElementById('deleteForm_' + id).submit();
+			}
+		});
+	}
+</script>
+
+

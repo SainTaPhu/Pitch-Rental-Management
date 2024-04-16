@@ -1,0 +1,135 @@
+﻿@model IEnumerable<UnityComplex.ViewModels.FieldVM>
+@{
+	ViewData["Title"] = "ProductList";
+}
+
+<style>
+	.price>h6{
+		color: rgba(255, 165, 0, 0.7); /* Màu cam nhạt */
+	}
+	.product-details {
+		text-align: center; /* Căn giữa nội dung */
+		margin-top: 10px; /* Khoảng cách từ phần tử sản phẩm lên phần tử thông tin */
+	}
+
+	.single-product {
+		transition: transform 0.3s, box-shadow 0.3s; /* Áp dụng hiệu ứng transition cho thuộc tính transform và box-shadow */
+	}
+
+	.highlight {
+		transform: scale(1.05) translateY(-3px); /* Phóng to sân lên một chút và di chuyển lên 3px */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Hiệu ứng bóng mờ */
+		/* border: 2px solid #ff0000; /* Màu khung */ */
+	}
+</style>
+
+<section class="banner-area organic-breadcrumb" style="margin-bottom:100px">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>Danh sách sân</h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+@if (TempData.ContainsKey("Mess"))
+{
+	<div id="boc">
+		<div id="alertMessage" class="alert alert-success slide-from-right">
+			@TempData["Mess"]
+		</div>
+	</div>
+}
+@if (TempData.ContainsKey("MessFail"))
+{
+	<div id="boc">
+		<div id="alertMessage" class="alert alert-danger slide-from-right " >
+			@TempData["MessFail"]
+		</div>
+	</div>
+}
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-3 col-lg-4 col-md-5">
+			@await Component.InvokeAsync("SportCategory")
+			<div class="sidebar-categories">
+				<div class="head">Phân loại theo giá tiền</div>
+				<ul class="main-categories">
+					<li class="main-nav-list">
+						<a data-toggle="collapse" href="#" aria-expanded="true" aria-controls="fruitsVegetable" class="">
+							<span class="lnr lnr-arrow-left"></span> Giá tiền mong muốn <span class="number"></span>
+						</a>
+						<ul class="collapse show" id="fruitsVegetable" data-toggle="collapse" aria-expanded="true" aria-controls="fruitsVegetable" style="">
+							<li class="main-nav-list child"><a href="/Product/FilterByPrice?minprice=40000&amp;maxprice=70000">40.000 - 70.000</a></li>
+							<li class="main-nav-list child"><a href="/Product/FilterByPrice?minprice=80000&amp;maxprice=120000">80.000 - 120.000</a></li>
+							<li class="main-nav-list child"><a href="/Product/FilterByPrice?minprice=130000&amp;maxprice=150000">130.000 - 150.000</a></li>
+							<li class="main-nav-list child"><a href="/Product/FilterByPrice?minprice=150000&amp;maxprice=180000">150.000 - 180.000</a></li>
+							<li class="main-nav-list child"><a href="/Product/FilterByPrice?minprice=180000&amp;maxprice=200000">180.000 - 200.000</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xl-9 col-lg-8 col-md-7">
+			<!-- Start Filter Bar -->
+			<div class="filter-bar d-flex flex-wrap align-items-center">
+				<div class="sorting">
+					<select onchange="location = this.value;">
+						<option value="@Url.Action("SortAsc", "Product")">Sắp xếp theo giá tăng dần</option>
+						<option value="@Url.Action("SortDes", "Product")">Sắp xếp theo giá giảm dần</option>
+					</select>
+				</div>
+			</div>
+			<!-- End Filter Bar -->
+			<!-- Start Best Seller -->
+			<section class="lattest-product-area pb-40 category-list">
+				<div class="row">
+					@foreach (var item in Model)
+					{
+						<!-- single product -->
+						<div class="col-lg-4 col-md-6" >
+							<div class="single-product" onmouseover="showFieldDetail(this)" onmouseleave="hideFieldDetail(this)">
+								<a asp-action="ProductDetail" asp-controller="Product" asp-route-idField="@item.IdField" asp-route-idUser="@Context.Session.GetInt32("IDSession")"><img class="img-fluid" style="width: 255px; height:255px" src="~/img/@item.Images.FirstOrDefault()" alt=""></a>
+								<div class="product-details">
+
+									<h6>
+
+										<a asp-action="ProductDetail" asp-controller="Product" asp-route-idField="@item.IdField" asp-route-idUser="@Context.Session.GetInt32("IDSession")">@item.FieldName</a>
+									</h6>
+									<div class="price">
+										<h6>@item.MorningPrice <span>VND</span></h6>
+										<h6>-</h6>
+										<h6>@item.AfternoonPrice <span>VND</span></h6>
+									</div>
+									<div>
+									</div>
+									<p>@item.Decription</p>
+								</div>
+								@* <p>@item.Decription</p> *@
+									
+							</div>
+						</div>
+					}
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	// Tự động ẩn div sau 3 giây
+	setTimeout(function () {
+		document.getElementById("alertMessage").style.display = "none";
+	}, 5000);
+	function showFieldDetail(field) {
+		field.classList.add("highlight"); // Thêm lớp CSS chứa hiệu ứng bóng mờ
+	}
+
+	function hideFieldDetail(field) {
+		field.classList.remove("highlight"); // Xóa lớp CSS để loại bỏ hiệu ứng bóng mờ
+	}
+</script>

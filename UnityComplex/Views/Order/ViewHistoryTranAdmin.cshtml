@@ -1,0 +1,54 @@
+﻿@model IEnumerable<UnityComplex.Models.Payment>
+
+@{
+    ViewData["Title"] = "ViewHistoryTranAdmin";
+}
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Lịch sử giao dịch</h1>
+
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container_history">
+    <h1 class="h1_history">Lịch Sử Giao Dịch</h1>
+    <div>
+    <table class="table_history">
+        <thead>
+            <tr class="tr_history">
+                <th>ID</th>
+                <th>Thời gian</th>
+                <th>Số tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var count = 1;
+            }
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    
+                    <tr class="tr_history">
+                        <td>@count</td>
+                        @{
+                            int index = item.Deposit.ToString().IndexOf(".");
+                            string childString = item.Deposit.ToString().Substring(0, index);
+                        }
+                        <td>@item.PaymentTime</td>
+                        <td>@childString VND</td>
+                        <td><a asp-controller="Order" asp-action="ViewHistoryTranAdminDetail" asp-route-idPayment="@item.IdPayment"> Xem chi tiết</a></td>
+                    </tr>
+                    count++;
+                }
+            }
+        </tbody>
+    </table>
+    </div>
+</div>
+

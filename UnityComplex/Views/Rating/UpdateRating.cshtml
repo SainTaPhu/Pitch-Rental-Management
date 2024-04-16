@@ -1,0 +1,91 @@
+﻿@model UnityComplex.Models.Rating
+@{
+    ViewData["Title"] = "UpdateRating";
+}
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Sửa Đánh Giá Sân</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+
+<section class="blog_categorie_area">
+</section>
+
+<div class="col-lg-12 container-rating" style="margin-bottom: 100px">
+    <div class="review_box">
+        <form class="contact_form" asp-action="UpdateRating" method="post" id="contactForm" novalidate="novalidate">
+            <h1>Sửa Đánh Giá</h1>
+            <p>Đánh Giá Sao:</p>
+            <ul class="list user_star_rating">
+                <li>
+                    @if (Model.RatingValue >= 1)
+                    {
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    }
+                </li>
+                <li>
+                    @if (Model.RatingValue >= 2)
+                    {
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    }
+                </li>
+                <li>
+                    @if (Model.RatingValue >= 3)
+                    {
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    }
+                </li>
+                <li>
+                    @if (Model.RatingValue >= 4)
+                    {
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    }
+                </li>
+                <li>
+                    @if (Model.RatingValue >= 5)
+                    {
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    }
+                </li>
+            </ul>
+            <input type="hidden" name="ratingId" value="@Model.IdRating">
+            <input type="hidden" name="ratingValue" id="ratingValue" value="@Model.RatingValue">  @* Trường ẩn để lưu đánh giá  *@
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" name="comment" id="comment" rows="1" placeholder="Bình Luận" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập bình luận về sân'">@Model.Comment</textarea>
+                    </div>
+                </div>
+                <div class="col-md-12 text-right">
+                    <button type="submit" value="submit" class="primary-btn">Sửa Đánh Giá</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

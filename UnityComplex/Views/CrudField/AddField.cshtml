@@ -1,0 +1,74 @@
+﻿@model UnityComplex.Models.Field
+
+@{
+    ViewData["Title"] = "AddField";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Tạo Sân</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+
+<section class="blog_categorie_area">
+</section>
+
+@* Body *@
+<div class="container-create-field">
+        <h1 class="h1-create-field">Đăng Tải Sân Vận Động</h1>
+    <form method="post" asp-action="AddField" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label class="label-create-field" asp-for="FieldName">Nhập Tên Sân : </label>
+            <input type="text" id="stadium-name" asp-for="FieldName" required>
+            <span asp-validation-for="FieldName" class="text-danger"></span>
+        </div>
+        <div style="display: block;">
+            <label class="label-create-field" for="stadium-images">Hình Ảnh Sân:</label>
+            <input type="file" id="fileInput1" name="files" accept=".jpg, .jpeg, .png" class="form-control-file" required />
+            <input type="file" id="fileInput2" name="files" accept=".jpg, .jpeg, .png" class="form-control-file" required />
+            <input type="file" id="fileInput3" name="files" accept=".jpg, .jpeg, .png" class="form-control-file" required />
+        </div>
+        <div class="form-group">
+            <label asp-for="Decription" class="label-create-field">Mô Tả</label>
+            <input asp-for="Decription" rows="4"  required />
+            <span asp-validation-for="Decription" class="text-danger"></span>
+        </div>
+            <label class="label-create-field" for="field-price">Giá Sân : </label>
+            <div style="display: flex; " class="input-group">
+            <label asp-for="MorningPrice">Giá Buổi Sáng:</label>
+            <input asp-for="MorningPrice" min="10000" max="999999999" rows="4" required>
+            <span asp-validation-for="MorningPrice" class="text-danger"></span>
+
+            <label asp-for="AfternoonPrice">Giá Buổi Chiều:</label>
+            <input asp-for="AfternoonPrice" min="10000" max="999999999"  rows="4" required>
+            <span asp-validation-for="AfternoonPrice" class="text-danger"></span>
+        </div>
+        <div>
+                <label style="display: block;" class="label-create-field" asp-for="IdSport">Môn Thể Thao:</label>
+                <select asp-for="IdSport" class ="form-control" asp-items="ViewBag.IdSport"></select>
+        </div>
+        
+        <div style="margin-top : 70px">
+            <input type="submit" value="Tạo Sân" class="button-create-field" />
+        </div>
+        </form>
+    </div>
+
+
+<script>
+    function limitToOneFile(inputId) {
+        const input = document.getElementById(inputId);
+        if (input.files.length > 1) {
+            alert("Chỉ được chọn một tệp.");
+            input.value = '';
+        }
+    }
+</script>
+

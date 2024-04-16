@@ -1,0 +1,133 @@
+﻿@model UnityComplex.ViewModels.StatisticVM;
+
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Trang Thống Kê</h1>
+                <nav class="d-flex align-items-center">
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Contact Area =================-->
+<section class="contact_area section_gap_bottom" style="min-height:600px; margin-top:50px; justify-content:center">
+    <div class="container">
+        <div style="display: flex; justify-content: center;">
+            <form style="display: flex;">
+                <div class="col-lg-12" style="max-width: 600px; display: flex; gap: 10px;">
+                    <!-- Giới hạn chiều rộng của form và thêm khoảng cách giữa các phần tử -->
+                    <div style="flex: 1;">
+                        <select asp-for="@Model.Type" class="form-control" id="Type" name="Type" style="width:100%; max-width:200px;">
+
+                            <option value="1">Số lượt đặt sân</option>
+                            <option value="2">Doanh thu</option>
+
+                        </select>
+                    </div>
+                    <div style="flex: 1;">
+                        <select asp-for="@Model.Year" class="form-control" id="Year" name="Year" style="width:100%; max-width:200px;">
+                            <!-- JavaScript to generate the last 10 years dynamically -->
+                            <script>
+                                const currentYear = new Date().getFullYear();
+                                for (let i = currentYear; i >= currentYear - 4; i--) {
+                                    document.write(`<option value="${i}">${i}</option>`);
+                                }
+                            </script>
+                            <!-- End of JavaScript -->
+                        </select>
+                    </div>
+                    <div style="flex: 1;">
+                        <select asp-for="@Model.Month" class="form-control" id="Month" name="Month" style="width:100%; max-width:200px;">
+                            <option value="1">Tháng 1</option>
+                            <option value="2">Tháng 2</option>
+                            <option value="3">Tháng 3</option>
+                            <option value="4">Tháng 4</option>
+                            <option value="5">Tháng 5</option>
+                            <option value="6">Tháng 6</option>
+                            <option value="7">Tháng 7</option>
+                            <option value="8">Tháng 8</option>
+                            <option value="9">Tháng 9</option>
+                            <option value="10">Tháng 10</option>
+                            <option value="11">Tháng 11</option>
+                            <option value="12">Tháng 12</option>
+                        </select>
+                    </div>
+                    <div style="flex: 1;">
+                        <input type="button" onclick="statistic()" class="primary-btn" value="Thống kê" />
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div style="display: flex; justify-content: center;">
+            <div>
+                <canvas id="myChart" style="width:1000px; max-height:1000px;"></canvas>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+
+    var myChart;
+
+    function statistic() {
+        var selectedMonth = $("#Month").val();
+        var selectedYear = $("#Year").val();
+        var selectedDataType = $("#Type").val();
+
+        $.ajax({
+            url: "/Statistic/GetData",
+            type: "POST",
+            data: {
+                type: selectedDataType,
+                year: selectedYear,
+                month: selectedMonth
+            },
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            dataType: "text",
+            success: OnsuccessResult,
+            error: OnError
+        });
+
+        function OnsuccessResult(data) {
+            console.log(data)
+            var _data = JSON.parse(data);
+            var _charLabels = _data[0];
+            var _charData = _data[1];
+
+            var barColor = ["red", "yellow", "green", "brown", "orange", "purple", "black", "grey", "pink", "brown", "orange", "purple", "red", "yellow", "green"];
+
+            // Xoá biểu đồ đang tồn tại
+            if (myChart) {
+                myChart.destroy();
+            }
+
+            // vẽ biểu đồ mới
+            myChart = new Chart("myChart", {
+
+                type: "bar",
+                data: {
+                    labels: _charLabels,
+                    datasets: [{
+                        label: 'Doanh thu/Số lượng đặt sân',
+                        backgroundColor: barColor,
+                        data: _charData
+                    }]
+                }
+            });
+        }
+
+        function OnError(err) {
+
+        }
+    }
+</script>
+

@@ -1,0 +1,91 @@
+﻿@model UnityComplex.ViewComponents.BookingPaymentRefund;
+@if (Model != null)
+{
+    @if (Model.Booking.Status == 4)
+    {
+        <div style="margin-bottom:50px">
+        <section class="banner-area organic-breadcrumb">
+            <div class="container">
+                <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                    <div class="col-first">
+                        <h1>Thông tin đơn hàng hoàn tiền</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section style="margin-top: 50px; display: flex; justify-content: center;">
+                <div style="width: 50%;margin:auto;padding-left:225px;">
+                <h3 class="title_confirmation">THÔNG TIN ĐƠN HÀNG HOÀN TIỀN</h3>
+                <div class="row order_d_inner">
+                    <div class="col-lg-6">
+                        <div class="details_item">
+                            @* <h4>Thông Tin Đơn Hàng</h4> *@
+
+
+                            <ul class="list">
+                                <li><a href="#"><span>ID Đơn Hàng</span> : 1</a></li>
+
+
+                                <li><a href="#"><span>Số tiền cần hoàn lại</span> : @Model.Refund.NumberMoney</a></li>
+                                <li><a href="#"><span>Tên Ngân Hàng</span> : @Model.Refund.BankName</a></li>
+                                <li><a href="#"><span>Tên Chủ Tài khoản</span> : @Model.Refund.NameOfBeni</a></li>
+                                <li><a href="#"><span>Số tài khoản</span> : @Model.Refund.AccNumber</a></li>
+
+
+                            </ul>
+
+                        </div>
+                        <a class=" btn btn-primary" asp-controller="Product" asp-action="RefundBook" asp-route-idRefund="@Model.Refund.IdRefund" asp-route-idUser="@Context.Session.GetInt32("IDSession")">Xác nhận hoàn tiền</a>
+                    </div>
+
+                </div>
+        </section>
+        </div>
+    }
+    else
+    {
+        <div style="margin-bottom:50px">
+        <section  class="banner-area organic-breadcrumb">
+            <div class="container">
+                <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                    <div class="col-first">
+                        <h1>Thông tin đơn hàng </h1>
+                        <nav class="d-flex align-items-center">
+                            <a href="index.html">Trang Chủ<span class="lnr lnr-arrow-right"></span></a>
+                            <a href="#">Đặt Sân<span class="lnr lnr-arrow-right"></span></a>
+                            <a href="single-product.html">Thông tin sân</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 50px; display: flex; justify-content: center;">
+                <div style="width: 50%;margin:auto;padding-left:225px;">
+                <h3 class="title_confirmation">THÔNG TIN ĐƠN HÀNG</h3>
+                <div class="order_d_inner">
+                    <div>
+                        <div class="details_item">
+                            @* <h4>Thông Tin Đơn Hàng</h4> *@
+                            @{
+                                string formatDate = Model.Booking.Date?.ToString("dd-MM-yyyy") ?? string.Empty;
+                                double moneyRemain = (double)Model.Booking.TotalPrice - (double)Model.Payment.Deposit;
+                            }
+
+                            <ul class="list">
+                                <li><a href="#"><span>ID Đơn Hàng</span> : @Model.Booking.IdBooking</a></li>
+                                <li><a href="#"><span>Số tiền còn lại</span> : @moneyRemain</a></li>
+                                <li><a href="#"><span>Đặt sân ngày </span> : @formatDate</a></li>
+                            </ul>
+
+                        </div>
+                        <a class="btn btn-primary" asp-controller="Order" asp-action="PaymentRemain" asp-route-idBooking="@Model.Booking.IdBooking">Tạo mã thanh toán</a>
+                        @*  <a class="btn btn-primary" asp-controller="Order" asp-action="PaymentRemainCOD" asp-route-idBooking="@Model.Booking.IdBooking" asp-route-remain="@moneyRemain" asp-route-idPayment="@Model.Payment.IdPayment">Thanh toán bằng tiền mặt</a> *@
+                    </div>
+
+                </div>
+        </section>
+        </div>
+    }
+}

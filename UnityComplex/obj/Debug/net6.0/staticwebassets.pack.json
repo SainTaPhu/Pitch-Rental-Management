@@ -1,0 +1,1785 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\changepass.html",
+      "PackagePath": "staticwebassets\\changepass.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\checkout.html",
+      "PackagePath": "staticwebassets\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\confirmation.html",
+      "PackagePath": "staticwebassets\\confirmation.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\contact_process.php",
+      "PackagePath": "staticwebassets\\contact_process.php"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\availability-calendar.css",
+      "PackagePath": "staticwebassets\\css\\availability-calendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\bootstrap.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\cuong.css",
+      "PackagePath": "staticwebassets\\css\\cuong.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\css\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\jquerysctipttop.css",
+      "PackagePath": "staticwebassets\\css\\jquerysctipttop.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\css\\linearicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\main.map",
+      "PackagePath": "staticwebassets\\css\\main.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\editinformation.html",
+      "PackagePath": "staticwebassets\\editinformation.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\elements.html",
+      "PackagePath": "staticwebassets\\elements.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\huycuong\\cancel.html",
+      "PackagePath": "staticwebassets\\huycuong\\cancel.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\huycuong\\history.html",
+      "PackagePath": "staticwebassets\\huycuong\\history.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\huycuong\\orderDetail.html",
+      "PackagePath": "staticwebassets\\huycuong\\orderDetail.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\huycuong\\single-product.html",
+      "PackagePath": "staticwebassets\\huycuong\\single-product.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I10.jpg",
+      "PackagePath": "staticwebassets\\img\\I10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I11.jpg",
+      "PackagePath": "staticwebassets\\img\\I11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I12.jpg",
+      "PackagePath": "staticwebassets\\img\\I12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I13.jpg",
+      "PackagePath": "staticwebassets\\img\\I13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I14.jpg",
+      "PackagePath": "staticwebassets\\img\\I14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I15.jpg",
+      "PackagePath": "staticwebassets\\img\\I15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I16.jpg",
+      "PackagePath": "staticwebassets\\img\\I16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\I9.jpg",
+      "PackagePath": "staticwebassets\\img\\I9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL.rar",
+      "PackagePath": "staticwebassets\\img\\SQL.rar"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\032dbdb9-fcf6-4dbb-8b42-77ad3ca0e50b.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\032dbdb9-fcf6-4dbb-8b42-77ad3ca0e50b.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\038e834e-421d-49c9-9afa-2b8b06f251d2.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\038e834e-421d-49c9-9afa-2b8b06f251d2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\058cb386-3ae4-4b2d-9fed-52883c2483dd.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\058cb386-3ae4-4b2d-9fed-52883c2483dd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\08bc664f-7867-4d43-9092-4e53ed204226.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\08bc664f-7867-4d43-9092-4e53ed204226.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\101.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\101.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\102.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\102.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\103.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\103.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\111.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\112.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\112.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\113.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\113.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\121.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\122.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\122.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\123.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\131.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\131.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\132.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\132.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\133.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\141.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\141.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\142.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\142.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\143.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\143.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\145f5c39-9940-46af-aad5-f22c6f4000be.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\145f5c39-9940-46af-aad5-f22c6f4000be.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\146a2ebd-f951-4ccc-a385-24683a1a9ba1.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\146a2ebd-f951-4ccc-a385-24683a1a9ba1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\151.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\151.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\152.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\152.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\153.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\153.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\1b87f532-0d1d-458f-9e8f-74ceeea05789.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\1b87f532-0d1d-458f-9e8f-74ceeea05789.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\1df046ab-f114-486c-889a-26b0c3405220.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\1df046ab-f114-486c-889a-26b0c3405220.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\21.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\22.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\23.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\24d04b60-4353-400e-83aa-703dc7683bdd.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\24d04b60-4353-400e-83aa-703dc7683bdd.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\2741b31e-f69a-4275-836f-18521219d8a7.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\2741b31e-f69a-4275-836f-18521219d8a7.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\2a8d8b6c-0c3c-4dbb-afd5-9f0c1312b7b3.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\2a8d8b6c-0c3c-4dbb-afd5-9f0c1312b7b3.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\31.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\32.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\33.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\340febf6-f7dd-4541-bf12-b44a12061667.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\340febf6-f7dd-4541-bf12-b44a12061667.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\392c745c-df63-490b-a300-151bf34eec00.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\392c745c-df63-490b-a300-151bf34eec00.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\3bee99d7-399c-48aa-9471-83ea421dac8d.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\3bee99d7-399c-48aa-9471-83ea421dac8d.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\3ee49715-75fa-49d1-8c5e-de35fee68f26.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\3ee49715-75fa-49d1-8c5e-de35fee68f26.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\41.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\42.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\43.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\4de26b15-a2de-42c1-9a42-51154c14fbcd.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\4de26b15-a2de-42c1-9a42-51154c14fbcd.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\51.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\52.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\53.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\53.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\5658f5b9-3004-43d3-9ac3-b426f3b50d57.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\5658f5b9-3004-43d3-9ac3-b426f3b50d57.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\567bf6cd-7a71-42fa-b373-a59f03331158.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\567bf6cd-7a71-42fa-b373-a59f03331158.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\58798092-536d-4de4-a561-c123a363d257.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\58798092-536d-4de4-a561-c123a363d257.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\59673497-edce-448c-94af-218581c1f6f7.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\59673497-edce-448c-94af-218581c1f6f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\5bf9cc3c-11de-45e1-aa56-aa43a184002c.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\5bf9cc3c-11de-45e1-aa56-aa43a184002c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\5ee78845-952a-42ea-b717-788cade1f9e8.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\5ee78845-952a-42ea-b717-788cade1f9e8.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\61.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\61e6a56d-d3ab-4cc0-b030-e91b5abecef2.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\61e6a56d-d3ab-4cc0-b030-e91b5abecef2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\62.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\63.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\63.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\675ab637-6c91-47bb-a58e-0d9a2ef84f0f.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\675ab637-6c91-47bb-a58e-0d9a2ef84f0f.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\6aab3d45-d1ca-4b7a-b3e0-ca029fef8dc8.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\6aab3d45-d1ca-4b7a-b3e0-ca029fef8dc8.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\71.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\72.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\72.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\7200ebc3-25b3-4c0a-bddd-f5c12c300f25.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\7200ebc3-25b3-4c0a-bddd-f5c12c300f25.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\73.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\76d55bfe-6d69-470e-a130-860e34d811f5.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\76d55bfe-6d69-470e-a130-860e34d811f5.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\787c25a9-7a69-485b-b09e-c5767a8da985.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\787c25a9-7a69-485b-b09e-c5767a8da985.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\7e03fce3-7149-488c-b301-133c040c19d5.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\7e03fce3-7149-488c-b301-133c040c19d5.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\7fcbb9bd-017c-4316-b08b-77825df38dd0.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\7fcbb9bd-017c-4316-b08b-77825df38dd0.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\7feda088-a3c7-47e5-9721-30127ba47c9a.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\7feda088-a3c7-47e5-9721-30127ba47c9a.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\80c78a1d-7d06-4875-afe0-2174f63dfb81.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\80c78a1d-7d06-4875-afe0-2174f63dfb81.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\81.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\81.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\82.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\83.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\83.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\8b36a0f7-e39c-42f7-ab7b-5bc6fb9d4e80.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\8b36a0f7-e39c-42f7-ab7b-5bc6fb9d4e80.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\8cb182a9-919d-4795-8a94-c6621546ef61.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\8cb182a9-919d-4795-8a94-c6621546ef61.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\91.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\91.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\92.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\922aeedd-895e-4048-861d-edfa49440abb.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\922aeedd-895e-4048-861d-edfa49440abb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\93.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\93.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\a421d6f2-5510-49d1-acd4-9b6bdcb205e9.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\a421d6f2-5510-49d1-acd4-9b6bdcb205e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\ab180502-6bb1-4750-9f21-3fac77b4208e.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\ab180502-6bb1-4750-9f21-3fac77b4208e.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\ab73cb18-5395-4ff6-baf1-9b8b8fd91a42.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\ab73cb18-5395-4ff6-baf1-9b8b8fd91a42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\af8ed7ea-68df-48b4-8e1d-4938422de4dd.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\af8ed7ea-68df-48b4-8e1d-4938422de4dd.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\b4242a97-fa06-42a5-94f7-5dd3d961e2ad.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\b4242a97-fa06-42a5-94f7-5dd3d961e2ad.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\d47f406d-0d74-48e4-9216-0a0144ba6194.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\d47f406d-0d74-48e4-9216-0a0144ba6194.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\d569162d-d298-442c-8e59-70ffefbef262.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\d569162d-d298-442c-8e59-70ffefbef262.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\d6fdd8b8-0dbe-45c4-af05-b2058e90ebd5.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\d6fdd8b8-0dbe-45c4-af05-b2058e90ebd5.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\d90faad7-5042-4d1e-8a11-93c39291d1e4.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\d90faad7-5042-4d1e-8a11-93c39291d1e4.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\e4151e15-c213-483e-9048-4d43fb276ecc.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\e4151e15-c213-483e-9048-4d43fb276ecc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\ea85c044-359c-4caa-9401-ac38b0a15f96.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\ea85c044-359c-4caa-9401-ac38b0a15f96.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\ec9bcf12-4b15-4ec7-a209-d1eae0443593.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\ec9bcf12-4b15-4ec7-a209-d1eae0443593.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\ee5f965b-9dd1-4021-99fb-0bc33f80603d.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\ee5f965b-9dd1-4021-99fb-0bc33f80603d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\f0015b4f-dd19-453e-bee2-79d4c8826054.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\f0015b4f-dd19-453e-bee2-79d4c8826054.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\f1c785c2-bd98-4f29-82f2-c999b25fa1b6.jpg",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\f1c785c2-bd98-4f29-82f2-c999b25fa1b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\SQL\\IMAGE\\fb18460a-6a27-459c-b875-cf218559ec48.png",
+      "PackagePath": "staticwebassets\\img\\SQL\\IMAGE\\fb18460a-6a27-459c-b875-cf218559ec48.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\banner\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\banner\\banner-img.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\banner\\banner2-img.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner2-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\banner\\common-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\common-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\banner\\next.png",
+      "PackagePath": "staticwebassets\\img\\banner\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\banner\\prev.png",
+      "PackagePath": "staticwebassets\\img\\banner\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\add.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\add.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\img\\blog\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\c1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\c2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\c3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\c4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\c5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\c6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\cat-post\\cat-post-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\cat-post\\cat-post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\cat-post\\cat-post-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\cat-post\\cat-post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\cat-post\\cat-post-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\cat-post\\cat-post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\causes\\causes-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\causes\\causes-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\causes\\causes-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\causes\\causes-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\causes\\causes-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\causes\\causes-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\feature-img1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\feature-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\latest-post\\l-post-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\latest-post\\l-post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\latest-post\\l-post-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\latest-post\\l-post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\latest-post\\l-post-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\latest-post\\l-post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\latest-post\\l-post-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\latest-post\\l-post-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\main-blog\\m-blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\main-blog\\m-blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\main-blog\\m-blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\main-blog\\m-blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\main-blog\\m-blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\main-blog\\m-blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\main-blog\\m-blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\main-blog\\m-blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\main-blog\\m-blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\main-blog\\m-blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\next.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\next.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\popular-post\\post1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular-post\\post1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\popular-post\\post2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular-post\\post2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\popular-post\\post3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular-post\\post3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\popular-post\\post4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular-post\\post4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\post-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\post-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\blog\\prev.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\prev.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\brand\\1.png",
+      "PackagePath": "staticwebassets\\img\\brand\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\brand\\2.png",
+      "PackagePath": "staticwebassets\\img\\brand\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\brand\\3.png",
+      "PackagePath": "staticwebassets\\img\\brand\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\brand\\4.png",
+      "PackagePath": "staticwebassets\\img\\brand\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\brand\\5.png",
+      "PackagePath": "staticwebassets\\img\\brand\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\cart.jpg",
+      "PackagePath": "staticwebassets\\img\\cart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\category\\c1.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\category\\c2.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\category\\c3.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\category\\c4.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\category\\c5.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\category\\s-p1.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\s-p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\exclusive.jpg",
+      "PackagePath": "staticwebassets\\img\\exclusive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\fav.png",
+      "PackagePath": "staticwebassets\\img\\fav.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\features\\f-icon1.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\features\\f-icon2.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\features\\f-icon3.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\features\\f-icon4.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i1.jpg",
+      "PackagePath": "staticwebassets\\img\\i1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i2.jpg",
+      "PackagePath": "staticwebassets\\img\\i2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i3.jpg",
+      "PackagePath": "staticwebassets\\img\\i3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i4.jpg",
+      "PackagePath": "staticwebassets\\img\\i4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i5.jpg",
+      "PackagePath": "staticwebassets\\img\\i5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i6.jpg",
+      "PackagePath": "staticwebassets\\img\\i6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i7.jpg",
+      "PackagePath": "staticwebassets\\img\\i7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\i8.jpg",
+      "PackagePath": "staticwebassets\\img\\i8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l1.jpg",
+      "PackagePath": "staticwebassets\\img\\l1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l2.jpg",
+      "PackagePath": "staticwebassets\\img\\l2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l3.jpg",
+      "PackagePath": "staticwebassets\\img\\l3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l4.jpg",
+      "PackagePath": "staticwebassets\\img\\l4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l5.jpg",
+      "PackagePath": "staticwebassets\\img\\l5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l6.jpg",
+      "PackagePath": "staticwebassets\\img\\l6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l7.jpg",
+      "PackagePath": "staticwebassets\\img\\l7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\l8.jpg",
+      "PackagePath": "staticwebassets\\img\\l8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\login.jpg",
+      "PackagePath": "staticwebassets\\img\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\logonew.jpg",
+      "PackagePath": "staticwebassets\\img\\logonew.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\logonew2.jpg",
+      "PackagePath": "staticwebassets\\img\\logonew2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\men-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\men-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\newlogin.jpg",
+      "PackagePath": "staticwebassets\\img\\newlogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\ob1.jpg",
+      "PackagePath": "staticwebassets\\img\\ob1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\ob2.jpg",
+      "PackagePath": "staticwebassets\\img\\ob2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\ob3.jpg",
+      "PackagePath": "staticwebassets\\img\\ob3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\b1.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\b1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\b2.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\b2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\b3.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\b3.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\b4.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\b4.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\c1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\c2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\c3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\c4.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\cd-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\cd-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\cd.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\cd.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\ci1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\ci1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\ci2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\ci2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\ci3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\ci3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\f1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\f3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\f4.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\m1.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\m1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp10.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp11.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp12.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp4.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp5.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp6.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp7.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp8.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\mp9.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\mp9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\ob1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\ob1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\ob2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\ob2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\ob3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\ob3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p4.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p5.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p6.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p7.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\p8.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\p8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl2.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl3.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl4.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl5.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl6.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl7.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pl8.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pl8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\pm.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\pm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\q1.jpg",
+      "PackagePath": "staticwebassets\\img\\organic-food\\q1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\u1.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\u1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\u2.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\u2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\organic-food\\u3.png",
+      "PackagePath": "staticwebassets\\img\\organic-food\\u3.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\card.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\e-p1.png",
+      "PackagePath": "staticwebassets\\img\\product\\e-p1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\next.png",
+      "PackagePath": "staticwebassets\\img\\product\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p6.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p7.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\p8.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\p8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\prev.png",
+      "PackagePath": "staticwebassets\\img\\product\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\review-1.png",
+      "PackagePath": "staticwebassets\\img\\product\\review-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\review-2.png",
+      "PackagePath": "staticwebassets\\img\\product\\review-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\product\\review-3.png",
+      "PackagePath": "staticwebassets\\img\\product\\review-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\q1.jpg",
+      "PackagePath": "staticwebassets\\img\\q1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r1.jpg",
+      "PackagePath": "staticwebassets\\img\\r1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r10.jpg",
+      "PackagePath": "staticwebassets\\img\\r10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r11.jpg",
+      "PackagePath": "staticwebassets\\img\\r11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r12.jpg",
+      "PackagePath": "staticwebassets\\img\\r12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r2.jpg",
+      "PackagePath": "staticwebassets\\img\\r2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r3.jpg",
+      "PackagePath": "staticwebassets\\img\\r3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r4.jpg",
+      "PackagePath": "staticwebassets\\img\\r4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r5.jpg",
+      "PackagePath": "staticwebassets\\img\\r5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r6.jpg",
+      "PackagePath": "staticwebassets\\img\\r6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r7.jpg",
+      "PackagePath": "staticwebassets\\img\\r7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r8.jpg",
+      "PackagePath": "staticwebassets\\img\\r8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\r9.jpg",
+      "PackagePath": "staticwebassets\\img\\r9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\sd\\c1.jpg",
+      "PackagePath": "staticwebassets\\img\\sd\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\sd\\c2.jpg",
+      "PackagePath": "staticwebassets\\img\\sd\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\sd\\c3.jpg",
+      "PackagePath": "staticwebassets\\img\\sd\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\sd\\c4.jpg",
+      "PackagePath": "staticwebassets\\img\\sd\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\img\\sd\\c5.jpg",
+      "PackagePath": "staticwebassets\\img\\sd\\c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\js\\countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\ion.rangeSlider.js",
+      "PackagePath": "staticwebassets\\js\\ion.rangeSlider.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\js\\vendor\\popper.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\order.html",
+      "PackagePath": "staticwebassets\\order.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\prepros-6.config",
+      "PackagePath": "staticwebassets\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_elements.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_home.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_home.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_predefine.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_predefine.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_product.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_product.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_reset.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\scss\\theme\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\single-blog.html",
+      "PackagePath": "staticwebassets\\single-blog.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\single-product.html",
+      "PackagePath": "staticwebassets\\single-product.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\toan\\changepass.html",
+      "PackagePath": "staticwebassets\\toan\\changepass.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\toan\\editinformation.html",
+      "PackagePath": "staticwebassets\\toan\\editinformation.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\toan\\viewinformation.html",
+      "PackagePath": "staticwebassets\\toan\\viewinformation.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\tracking.html",
+      "PackagePath": "staticwebassets\\tracking.html"
+    },
+    {
+      "Id": "C:\\Users\\Huy Cuong\\Downloads\\ProjectFinalDefault\\UnityComplex - Copy\\UnityComplex\\UnityComplex\\wwwroot\\viewinformation.html",
+      "PackagePath": "staticwebassets\\viewinformation.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UnityComplex.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.UnityComplex.props",
+      "PackagePath": "build\\UnityComplex.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.UnityComplex.props",
+      "PackagePath": "buildMultiTargeting\\UnityComplex.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.UnityComplex.props",
+      "PackagePath": "buildTransitive\\UnityComplex.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

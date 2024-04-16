@@ -1,0 +1,58 @@
+﻿@model UnityComplex.ViewModels.EditProfileVM
+@{
+    ViewData["Title"] = "EditProfile";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb" style="margin-bottom:30px">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>CHỈNH SỬA THÔNG TIN</h1>
+                <nav class="d-flex align-items-center">
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================ Edit Information box arena =================-->
+<section class="view_box_area section_gap">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="login_form_inner" style="padding-bottom:40px;border:1px solid;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);padding-top: 50px;">
+                <h2>THAY ĐỔI THÔNG TIN NGƯỜI DÙNG</h2>
+                <form class="row login_form" id="viewUserInfoForm" asp-controller="Profile" asp-action="EditProfile" method="post" novalidate="novalidate">
+                    <input type="hidden" asp-for="idUser">
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align: left; asp-for="FullName">HỌ VÀ TÊN</label>
+                        <input type="text" class="form-control" asp-for="FullName" placeholder="Full Name">
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align: left;" asp-for="PhoneNumber">SỐ ĐIỆN THOẠI</label>
+                        <input type="text" class="form-control" asp-for="PhoneNumber" placeholder="Phone Number">
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="col-md-12 form-group">
+                        <label style="text-align: left;" asp-for="Email"></label>
+                        <input type="text" class="form-control" asp-for="Email" placeholder="Email" readonly>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="col-md-12 form-group">   
+                        <label style="text-align: left;" asp-for="Address">ĐỊA CHỈ</label>
+                        <input type="text" class="form-control" asp-for="Address" placeholder="Address">
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="primary-btn">LƯU THAY ĐỔI</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

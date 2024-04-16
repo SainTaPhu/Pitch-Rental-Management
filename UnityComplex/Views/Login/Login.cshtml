@@ -1,0 +1,63 @@
+﻿@model UnityComplex.ViewModels.LoginVM
+@{
+	ViewData["Title"] = "Login";
+	Layout = "_LoginLayout";
+}
+<section class="banner-area organic-breadcrumb" style="margin-bottom:50px">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>Trang đăng nhập</h1>
+				<nav class="d-flex align-items-center">
+					<a asp-controller="Home" asp-action="Index">Trở về trang chủ<span class="lnr lnr-arrow-right"></span></a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Banner Area -->
+<!--================Login Box Area =================-->
+<section class="login_box_area section_gap" style="margin-bottom:30px">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="login_box_img">
+					<img class="img-fluid" style="width:600px; height:530px" src="~/img/newlogin.jpg" alt="">
+					<div class="hover">
+						<h4>Bạn là thành viên mới?</h4>
+
+						<a class="primary-btn" asp-controller="Login" asp-action="SignUp">Tạo tài khoản ngay</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="login_form_inner">
+					<h3>Log in to enter</h3>
+					@if (TempData["LoginFail"] != null)
+					{
+						<div class="alert alert-danger">@TempData["LoginFail"]</div>
+					}
+					<form class="row login_form" asp-controller="Login" asp-action="Login" method="post" id="contactForm" novalidate="novalidate">
+
+						<div class="col-md-12 form-group">
+							<input class="form-control" asp-for="@Model.Email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+							<span class="text-danger" asp-validation-for="@Model.Email"></span>
+						</div>
+						<div class="col-md-12 form-group">
+							<input class="form-control" asp-for="@Model.Password" placeholder="Mật khẩu" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+							<span class="text-danger" asp-validation-for="@Model.Password"></span>
+						</div>
+
+
+						<div class="col-md-12 form-group">
+							<button type="submit" value="submit" class="primary-btn">Đăng nhập</button>
+							<a asp-action="ForgotPassWord" asp-controller="Login">Forgot Password?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+

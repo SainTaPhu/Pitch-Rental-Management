@@ -1,0 +1,456 @@
+﻿@{
+}
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Danh sách chờ hoàn tiền</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="index.html">Trang Chủ<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#">Đặt Sân<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="single-product.html">Thông tin sân</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div>
+        <div class="container w-100 mt-5">
+            @foreach (var item in Model.Bookings)
+            {
+                @foreach (var item1 in Model.FieldVM)
+                {
+                    if (item.IdField == item1.IdField)
+                    {
+                        @if (Model.Role == 2)
+                        {
+                            if (item.Status == 0)
+                            {
+                                <div id="" class="single-product shadow   rounded border border-success">
+
+
+                                    @foreach (var item2 in Model.Payment)
+                                    {
+                                        if (item.IdBooking == item2.IdBooking)
+                                        {
+
+                                            <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idPayment="@item2.IdPayment" asp-route-idUser="">
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                                    </div>
+                                                    <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                        <div class="product-details  d-flex flex-column align-items-center">
+                                                            <h6 class="m-3">
+                                                                @item1.FieldName
+                                                            </h6>
+                                                            @{
+                                                                string timeString = "12:00:00";
+                                                                TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                                string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                            }
+                                                            <div class="price ">
+                                                                <div class="">
+                                                                    <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                                    <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                                </div>
+
+                                                                <div class="d-flex flex-column align-items-center ">
+                                                                    @if (item.StartTime < time)
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                            </div>
+                                                            <p class="mb-3">@item1.Decription</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        }
+                                    }
+
+                                </div>
+                            }
+                            else if (item.Status == 1)
+                            {
+                                <div id="" class="single-product shadow ">
+                                    @foreach (var item2 in Model.Payment)
+                                    {
+                                        if (item.IdBooking == item2.IdBooking)
+                                        {
+
+                                            <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idPayment="@item2.IdPayment" asp-route-idUser="">
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                                    </div>
+                                                    <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                        <div class="product-details  d-flex flex-column align-items-center">
+                                                            <h6 class="m-3">
+                                                                @item1.FieldName
+                                                            </h6>
+                                                            @{
+                                                                string timeString = "12:00:00";
+                                                                TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                                string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                            }
+                                                            <div class="price ">
+                                                                <div class="">
+                                                                    <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                                    <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                                </div>
+
+                                                                <div class="d-flex flex-column align-items-center ">
+                                                                    @if (item.StartTime < time)
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                            </div>
+                                                            <p class="mb-3">@item1.Decription</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        }
+                                    }
+
+                                </div>
+                            }
+                            else if (item.Status == 3)
+                            {
+                                <div id="" class="single-product shadow   rounded border border-warning">
+                                    @foreach (var item2 in Model.Payment)
+                                    {
+                                        if (item.IdBooking == item2.IdBooking)
+                                        {
+
+                                            <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idPayment="@item2.IdPayment" asp-route-idUser="">
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                                    </div>
+                                                    <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                        <div class="product-details  d-flex flex-column align-items-center">
+                                                            <h6 class="m-3">
+                                                                @item1.FieldName
+                                                            </h6>
+                                                            @{
+                                                                string timeString = "12:00:00";
+                                                                TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                                string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                            }
+                                                            <div class="price ">
+                                                                <div class="">
+                                                                    <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                                    <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                                </div>
+
+                                                                <div class="d-flex flex-column align-items-center ">
+                                                                    @if (item.StartTime < time)
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                            </div>
+                                                            <p class="mb-3">@item1.Decription</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        }
+                                    }
+
+                                </div>
+                            }
+                            else if (item.Status == 4)
+                            {
+                                <div id="" class="single-product shadow   rounded border border-danger">
+                                    @foreach (var item2 in Model.Payment)
+                                    {
+                                        if (item.IdBooking == item2.IdBooking)
+                                        {
+
+                                            <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idPayment="@item2.IdPayment" asp-route-idUser="">
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                                    </div>
+                                                    <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                        <div class="product-details  d-flex flex-column align-items-center">
+                                                            <h6 class="m-3">
+                                                                @item1.FieldName
+                                                            </h6>
+                                                            @{
+                                                                string timeString = "12:00:00";
+                                                                TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                                string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                            }
+                                                            <div class="price ">
+                                                                <div class="">
+                                                                    <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                                    <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                                </div>
+
+                                                                <div class="d-flex flex-column align-items-center ">
+                                                                    @if (item.StartTime < time)
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                            </div>
+                                                            <p class="mb-3">@item1.Decription</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        }
+                                    }
+
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            if (item.Status == 0)
+                            {
+                                <div id="" class="single-product shadow   rounded border border-success">
+                                    <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idBooking="@item.IdBooking" asp-route-idUser="">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                            </div>
+                                            <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                <div class="product-details  d-flex flex-column align-items-center">
+                                                    <h6 class="m-3">
+                                                        @item1.FieldName
+                                                    </h6>
+                                                    @{
+                                                        string timeString = "12:00:00";
+                                                        TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                        string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                    }
+                                                    <div class="price ">
+                                                        <div class="">
+                                                            <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                            <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                        </div>
+
+                                                        <div class="d-flex flex-column align-items-center ">
+                                                            @if (item.StartTime < time)
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                            }
+                                                            else
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                    </div>
+                                                    <p class="mb-3">@item1.Decription</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            }
+                            else if (item.Status == 1)
+                            {
+                                <div id="" class="single-product shadow ">
+
+
+                                    <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idBooking="@item.IdBooking" asp-route-idUser="">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                            </div>
+                                            <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                <div class="product-details  d-flex flex-column align-items-center">
+                                                    <h6 class="m-3">
+                                                        @item1.FieldName
+                                                    </h6>
+                                                    @{
+                                                        string timeString = "12:00:00";
+                                                        TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                        string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                    }
+                                                    <div class="price ">
+                                                        <div class="">
+                                                            <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                            <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                        </div>
+
+                                                        <div class="d-flex flex-column align-items-center ">
+                                                            @if (item.StartTime < time)
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                            }
+                                                            else
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                    </div>
+                                                    <p class="mb-3">@item1.Decription</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            }
+                            else if (item.Status == 3)
+                            {
+                                <div id="" class="single-product shadow   rounded border border-warning">
+
+
+                                    <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idBooking="@item.IdBooking" asp-route-idUser="">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                            </div>
+                                            <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                <div class="product-details  d-flex flex-column align-items-center">
+                                                    <h6 class="m-3">
+                                                        @item1.FieldName
+                                                    </h6>
+                                                    @{
+                                                        string timeString = "12:00:00";
+                                                        TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                        string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                    }
+                                                    <div class="price ">
+                                                        <div class="">
+                                                            <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                            <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                        </div>
+
+                                                        <div class="d-flex flex-column align-items-center ">
+                                                            @if (item.StartTime < time)
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                            }
+                                                            else
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                    </div>
+                                                    <p class="mb-3">@item1.Decription</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            }
+                            else if (item.Status == 4)
+                            {
+                                <div id="" class="single-product shadow   rounded border border-danger">
+
+
+                                    <a asp-controller="Order" asp-action="ViewHistoryDetail" asp-route-idBooking="@item.IdBooking" asp-route-idUser="">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img class="img-fluid w-100 m-0" style="width: 250px; height:250px" src="~/img/@item1.Images.FirstOrDefault()" alt="">
+                                            </div>
+                                            <div class="col-lg-9 d-flex flex-column justify-content-center ">
+                                                <div class="product-details  d-flex flex-column align-items-center">
+                                                    <h6 class="m-3">
+                                                        @item1.FieldName
+                                                    </h6>
+                                                    @{
+                                                        string timeString = "12:00:00";
+                                                        TimeSpan time = TimeSpan.Parse(timeString);
+
+                                                        string formattedDate = item.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                    }
+                                                    <div class="price ">
+                                                        <div class="">
+                                                            <h6 style="display: inline-block">    @formattedDate   -</h6>
+
+                                                            <h6 style="display: inline-block"> @item.StartTime - @item.EndTime </h6>
+                                                        </div>
+
+                                                        <div class="d-flex flex-column align-items-center ">
+                                                            @if (item.StartTime < time)
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.MorningPrice <span>VND</span></h6>
+                                                            }
+                                                            else
+                                                            {
+                                                                <h6 style="display: inline-block"> @item1.AfternoonPrice <span>VND</span></h6>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                    </div>
+                                                    <p class="mb-3">@item1.Decription</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        </div>
+
+    </div>
+</div>

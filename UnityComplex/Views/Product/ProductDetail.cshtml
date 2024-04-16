@@ -1,0 +1,729 @@
+﻿@model UnityComplex.ViewComponents.BookingField
+
+
+@{
+    ViewData["Title"] = "ProductDetail";
+
+}
+<style>
+    table {
+        width: 100%;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+        th:nth-child(2), td:nth-child(2),
+        /* Căn giữa nội dung của cột thành tiền */
+        th:nth-child(4), td:nth-child(4) {
+            text-align: center;
+        }
+
+        th:nth-child(odd), td:nth-child(odd) {
+            text-align: left;
+        }
+
+</style>
+
+
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Danh sách thuê sân</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="index.html">Trang Chủ<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#">Đặt Sân<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="single-product.html">Thông tin sân</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Single Product Area =================-->
+<div class="product_image_area">
+    <div class="container">
+        @foreach (var item in Model.FieldSportVM)
+        {
+
+            <form action="ProductBooking" method="post">
+                <div class="row s_product_inner">
+                    <div class="col-lg-6">
+                        <div class="s_Product_carousel  pt-5">
+
+                            @foreach (var image in item.Images)
+                            {
+                                <div class="single-prd-item">
+                                    <img class="img-fluid" src="~/img/@image" alt="">
+                                </div>
+                            }
+                        </div>
+                        <!-- Giỏ hàng -->
+                        <div class="s_product_text  mt-5 ">
+                            <div id="cartItems" class=" d-none">
+                                <h2> Tổng hóa đơn </h2>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Tên sản phẩm</th>
+                                            <th>Giá</th>
+                                            <th>Số lượng</th>
+                                            <th>Thành tiền</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="cart-items">
+                                        <!-- Các sản phẩm trong giỏ hàng sẽ được thêm vào đây -->
+                                    </tbody>
+                                    <tfoot>
+                                         <tr>
+                                            <td style="font-weight:bold" colspan="3">Tổng cộng:</td>
+                                            <td id="total-amount">0</td>
+                                            @*  <input type="number" id="total-amounts" name="TotalPrice" style="display: none; > *@
+                                        </tr>
+                                        <tr>
+                                            <td style="font-weight:bold" colspan="3">Cọc trước :</td>
+                                            <td id="deposit-money">0</td>
+                                            @*  <input type="number" id="total-amounts" name="TotalPrice" style="display: none; > *@
+                                        </tr>
+                                    </tfoot>
+                                </table>
+
+                                <div id="listId"></div>
+                            </div>
+                        </div>
+
+                        @*   =================================  *@
+                    </div>
+
+                    <div class="col-lg-5 offset-lg-1">
+                        <div class="s_product_text">
+                            <h3>@item.FieldName</h3>
+
+                            <h2 id="Moprice" style="display: inline-block"> @item.MorningPrice</h2> <h2 style="display: inline-block"> - </h2> <h2 id="Afprice" style="display: inline-block">@item.AfternoonPrice</h2>
+
+
+                            <ul class="list">
+                                <li><span>Phân Loại</span> : @item.SportName</li>
+                                <li><span>Trạng Thái</span> : Có thể sử dụng</li>
+                            </ul>
+                            <p class="mb-4"> @item.FieldName, @item.Decription</p>
+                            <div>
+
+
+                                <input id="IdField" name="IdField" value="@item.IdField" style="display: none;">
+                                <input id="IdUser" name="IdUser" value="@item.IdUser" style="display: none;">
+
+                                @* =======================  chọn ngày đặt  ====================== *@
+
+                                <div class="time-slots">
+
+                                    <select id="selectionFutureDays" name="SelectedDate" onchange="getSelectedValue()">
+                                        @foreach (var futureDate in Model.FutureDate)
+                                        {
+                                            <option value="@futureDate.Dates">
+                                                @{
+                                                    string formattedDate = futureDate.Dates?.ToString("dd/MM/yyyy") ?? string.Empty;
+                                                }
+                                                @formattedDate
+                                            </option>
+                                        }
+                                    </select>
+                                </div>
+
+
+                                @* ============================================= *@
+
+
+                                <div class="time-slots">
+
+                                    @* =======================  Loại các h đã đặt và h quá khứ  ====================== *@
+
+                                    <div id="updateBooking">
+                                        <div class="time-slots">
+                                            @{
+                                                var i = 1;
+                                                TimeSpan currentTime = DateTime.Now.TimeOfDay;
+                                            }
+                                            @foreach (var item1 in Model.Time)
+                                            {
+                                                var j = 0;
+                                                @foreach (var timeBook in Model.Bookings)
+                                                {
+                                                    if (item1.StartTime == timeBook.StartTime)
+                                                    {
+                                                        <div class="time-slot">
+                                                            <input type="radio" id="slot@(i.ToString())" name="Slot" value="@item1.StartTime" disabled>
+                                                            <label for="slot@(i.ToString())" style="opacity : 50%;">
+
+                                                                @item1.StartTime - @item1.EndTime
+
+                                                            </label>
+                                                        </div>
+                                                        j++;
+                                                    }
+                                                }
+
+                                                @if (j != 1)
+                                                {
+
+                                                    if (item1.StartTime <= currentTime)
+                                                    {
+                                                        <div class="time-slot">
+                                                            <input type="radio" id="slot@(i.ToString())" name="Slot" value="@item1.StartTime" disabled>
+                                                            <label for="slot@(i.ToString())" style="opacity : 50%;">
+
+                                                                @item1.StartTime - @item1.EndTime
+
+                                                            </label>
+                                                        </div>
+
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="time-slot">
+                                                            <input type="radio" id="slot@(i.ToString())" name="Slot" value="@item1.StartTime">
+                                                            <label for="slot@(i.ToString())">
+
+                                                                @item1.StartTime - @item1.EndTime
+
+                                                            </label>
+                                                        </div>
+                                                    }
+                                                }
+                                                i++;
+
+                                            }
+                                        </div>
+
+                                    </div>
+
+                                    @* ============================================= *@
+
+                                    @*   check box sử dụng dịch vụ *@
+
+                                    <div id="checkbox" class="w-100">
+                                        <input type="checkbox" id="myCheckbox" name="myCheckbox"> <label for="myCheckbox">Tick Để Hiện Các Dịch Vụ </label>
+                                    </div>
+
+                                    @*   =========================== *@
+
+
+                                    @*  ==================================  Dịch vụ  =================================== *@
+
+                                    <div id="service" class="w-100 d-none">
+                                        <h2>Sản phẩm giải khát</h2>
+
+                                        @foreach (var service in Model.Services)
+                                        {
+                                            if (service.IdCategory == 1)
+                                            {
+                                                <div class="m-3 row align-items-center">
+                                                    <div class="col-5">
+                                                        <label id="@("name" + service.IdService)" for="Quantity">@service.ServiceName</label>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <span id="@("price" + service.IdService)" name="@("price" + service.IdService)" value="@service.Price">@service.Price</span>
+                                                    </div>
+                                                    <div class="col-5">
+                                                        <div class="input-group">
+                                                            <button class="btn btn-outline-secondary" type="button" onclick="decreaseValue('@service.IdService')">-</button>
+                                                            <input id="@("quantity" + service.IdService)" class="form-control form-range" type="text" name="Quantity" id="@("quantity" + service.IdService)" value="0" min="0">
+                                                            <button class="btn btn-outline-secondary" type="button" onclick="increaseValue('@service.IdService')">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                        <h2>Sản phẩm khác</h2>
+                                        @foreach (var service in Model.Services)
+                                        {
+                                            if (service.IdCategory != 1)
+                                            {
+                                                <div class="m-3 row align-items-center">
+                                                    <div class="col-5">
+                                                        <label id="@("name" + service.IdService)" for="Quantity">@service.ServiceName</label>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <span id="@("price" + service.IdService)" name="@("price" + service.IdService)" value="@service.Price">@service.Price</span>
+                                                    </div>
+                                                    <div class="col-5">
+                                                        <div class="input-group">
+                                                            <button class="btn btn-outline-secondary" type="button" onclick="decreaseValue('@service.IdService')">-</button>
+                                                            <input id="@("quantity" + service.IdService)" class="form-control form-range" type="text" name="Quantity" id="@("quantity" + service.IdService)" value="0" min="0">
+                                                            <button class="btn btn-outline-secondary" type="button" onclick="increaseValue('@service.IdService')">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+
+                                    </div>
+
+
+                                    @*  ===================================================================== *@
+                                    @if (Context.Session.GetInt32("RoleSession") != 1)
+                                    {
+                                        <div id="checkboxBook" class="w-100">
+                                            <input type="checkbox" id="myCheckboxBook" name="myCheckboxBook"> <label for="myCheckboxBook">Tick Để Trả Toàn Bộ Số Tiền </label>
+                                        </div>
+                                    }
+                                    @if (Context.Session.GetInt32("RoleSession") != null)
+                                    {
+                                        <div class="card_area d-flex align-items-center mt-3">
+                                            <button style="opacity:50%;" id="summit" class="primary-btn opacity-50" type="submit" disabled>Đặt Sân</button>
+
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+        }
+    </div>
+
+
+</div>
+
+<!-- Cuong -->
+<section class="product_description_area">
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+                   aria-selected="false">Đánh Giá</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="review_list">
+
+                            @foreach (var item in Model.Object)
+                            {
+
+                                <div class="review_item">
+                                    <div class="media">
+                                        <div class="d-flex">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>@item.User.FullName</h4>
+                                            <div>
+                                                <!-- Đây là phần hiển thị số sao dựa trên RatingValue -->
+                                                @for (int i = 0; i < item.Rating.RatingValue; i++)
+                                                {
+                                                    <i class="fa fa-star"></i>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        @item.Rating.Comment
+                                    </p>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+@* ================================== *@
+
+<style>
+    .inputClicked {
+        opacity: 100% !important;
+    }
+
+    .selectClicked {
+        opacity: 50% !important;
+    }
+</style>
+
+@* ================================== *@
+
+<script>
+
+
+
+    var radioInputs = document.querySelectorAll('input[type="radio"][name="Slot"]');
+    var priceField = 0;
+
+    //====== kiểm tra check box
+
+    const checkbox = document.getElementById('myCheckbox');
+
+    checkbox.addEventListener('change', function () {
+
+        var service = document.getElementById("service");
+        if (this.checked) {
+            service.classList.remove("d-none");
+            service.style.display = "block !important";
+
+        } else {
+            service.classList.add("d-none");
+        }
+    });
+    //=====================
+    function getSelectedValue() {
+        // vô hiệu hóa và mờ button
+        var button = document.getElementById("summit");
+        button.disabled = true;
+        button.classList.add('selectClicked');
+        priceField = 0;
+        const cartItems = document.getElementById("cartItems");
+        cartItems.classList.add('d-none');
+
+        //=========================================
+        var selectionFutureDay = document.getElementById("selectionFutureDays");
+        var idField = document.getElementById("IdField");
+        var selectedValue = selectionFutureDay.value;
+        //=================================================
+        //  var total = document.getElementById("total");
+        // total.classList.add("d-none");
+        //===================  xử lí dử liệu bằng ajax ==============================
+        $.ajax({
+            url: '/Product/CheckTime',
+            type: 'Post',
+            data: { selectedValue: selectedValue, idField: idField.value },
+            success: function (booking) {
+                var time = booking.time;
+                var booked = booking.bookings;
+                var checkTime = booking.checkTime;
+                // Xử lý dữ liệu trả về
+                var html = '';
+                html += '<div class="time-slots">';
+                var i = 1;
+                var currentTime = new Date();
+                $.each(time, function (index1, item1) {
+                    var j = 0;
+                    $.each(booked, function (index, item) {
+                        if (item1.startTime == item.startTime) {
+                            html += ' <div class="time-slot">';
+                            html += '<input type="radio" id = "slot' + i + '" name = "Slot" value = "' + item1.startTime + '" disabled >';
+                            html += '<label for="slot' + i + '" style="opacity : 50%;">' + item1.startTime + ' - ' + item1.endTime + '</label>';
+                            html += '</div>';
+                            j++;
+                        }
+                    });
+                    if (j != 1) {
+                        var startTimeComponents = item1.startTime.split(":");
+                        var startHour = parseInt(startTimeComponents[0], 10);
+                        var startMinute = parseInt(startTimeComponents[1], 10);
+                        var startTime = new Date();
+                        startTime.setHours(startHour);
+                        startTime.setMinutes(startMinute);
+                        if (checkTime === true && currentTime >= startTime) {
+
+                            html += ' <div class="time-slot">';
+                            html += '<input type="radio" id = "slot' + i + '" name = "Slot" value = "' + item1.startTime + '" disabled >';
+                            html += '<label for="slot' + i + '" style="opacity : 50%;">' + item1.startTime + ' - ' + item1.endTime + '</label>';
+                            html += '</div>';
+
+                        } else {
+
+                            html += ' <div class="time-slot">';
+                            html += '<input type="radio" id = "slot' + i + '" name = "Slot" value = "' + item1.startTime + '" >';
+                            html += '<label for="slot' + i + '">' + item1.startTime + ' - ' + item1.endTime + '</label>';
+                            html += '</div>';
+                        }
+                    }
+                    i++;
+                });
+                html += '</div>';
+                // Hiển thị dữ liệu trên trang
+                $('#updateBooking').html(html);
+
+                var radioInputs = document.querySelectorAll('input[type="radio"][name="Slot"]');
+                //=============================
+                radioInputs.forEach(function (input) {
+                    // Gắn sự kiện click cho mỗi phần tử input radio
+                    input.addEventListener('click', function () {
+                        if (input.checked) {
+
+                            // Mở vô hiệu hóa button
+
+                            // var button = document.getElementById("summit");
+                            button.disabled = false;
+                            button.classList.remove('selectClicked');
+                            button.classList.add('inputClicked');
+
+
+                            cartItems.classList.remove('d-none');
+
+                            const moPrice = document.getElementById("Moprice");
+                            const newMoPrice = moPrice.textContent;
+                            const afPrice = document.getElementById("Afprice");
+                            const newAfPrice = afPrice.textContent;
+                            const selectedValue = input.value;
+                            console.log(selectedValue);
+                            if (selectedValue > '12:00:00') {
+                                priceField = newAfPrice;
+                                console.log("lớn hơn 12 " + priceField);
+                                updateCart();
+                            } else {
+                                priceField = newMoPrice;
+                                console.log("nhỏ hơn 12" + priceField);
+                                updateCart();
+                            }
+
+                        }
+                    });
+                });
+            }
+        });
+
+    }
+    @*  function selectTime() {
+        // Mở vô hiệu hóa button
+
+        var button = document.getElementById("summit");
+        button.disabled = false;
+        var total = document.getElementById("total"); *@
+
+        //===============================
+        radioInputs.forEach(function (input) {
+
+            // Gắn sự kiện click cho mỗi phần tử input radio
+            input.addEventListener('click', function () {
+                if (input.checked) {
+
+                    // Mở vô hiệu hóa button
+
+                    var button = document.getElementById("summit");
+                    button.disabled = false;
+                    button.classList.add('inputClicked');
+
+                    const cartItems = document.getElementById("cartItems");
+                    cartItems.classList.remove('d-none');
+
+                    const moPrice = document.getElementById("Moprice");
+                    const newMoPrice = moPrice.textContent;
+                    const afPrice = document.getElementById("Afprice");
+                    const newAfPrice = afPrice.textContent;
+
+                    const selectedValue = input.value;
+                    console.log(selectedValue);
+
+                    if (selectedValue > '12:00:00') {
+                        priceField = newAfPrice;
+                        console.log("lớn hơn 12 " + priceField);
+                        updateCart();
+                    } else {
+                        priceField = newMoPrice;
+                        console.log("nhỏ hơn 12" + priceField);
+                        updateCart();
+
+                    }
+                }
+            });
+        });
+
+
+
+    // ==================== tăng giảm số lượng =====
+    var cartItems = [];
+    var totalPrice = 0;
+    function decreaseValue(id) {
+        var idPro = id;
+        var quantity = document.getElementById("quantity" + id);
+        var newQuantity = parseInt(quantity.value) - 1;
+        var price = document.getElementById("price" + id).textContent;
+        var newPrice = parseInt(price);
+        var NamePro = document.getElementById("name" + id).textContent;
+
+        const cartItem = document.getElementById("cartItems");
+        cartItem.classList.remove('d-none');
+
+        if (newQuantity >= 0) {
+            var item = {
+                IdPro: idPro,
+                proName: NamePro,
+                price: newPrice,
+                quantity: newQuantity,
+                total: newPrice * newQuantity
+            };
+            if (newQuantity === 0) {
+
+                var exit = cartItems.map(function (cartItem) {
+                    return cartItem.IdPro;
+                }).includes(idPro);
+
+                if (exit) {
+                    var index = cartItems.findIndex(function (cartItem) {
+                        return cartItem.IdPro === idPro;
+                    });
+
+                    if (index !== -1) {
+                        cartItems.splice(index, 1);
+                        console.log(cartItems);
+                        console.log("quantity nhỏ hơn không nên xóa khỏi cart");
+                    }
+                }
+
+            } else {
+                var index = cartItems.findIndex(function (cartItem) {
+                    return cartItem.IdPro == idPro;
+                });
+
+                if (index !== -1) {
+                    cartItems[index] = item;
+                    console.log(cartItems);
+                    console.log("Id tồn tại trong mảng nên Update lại đối tượng trong cart.");
+                }
+            }
+        } else {
+            console.log(cartItems);
+            console.log("quantity nhỏ hơn không nên không thêm vao cart");
+        }
+        //             lấy tổng giá
+        var prices = cartItems.map(function (cartItem) {
+            return cartItem.total;
+        });
+        totalPrice = prices.reduce(function (sum, a) {
+            return sum + a;
+        }, 0);
+        var value = parseInt(quantity.value);
+        if (value > 0) {
+            value--;
+            quantity.value = value;
+        }
+        updateCart();
+        // cập nhật bảng giá bill
+    }
+    function increaseValue(id) {
+        var idPro = id;
+        var quantity = document.getElementById("quantity" + id);
+        var newQuantity = parseInt(quantity.value) + 1;
+        var price = document.getElementById("price" + id).textContent;
+        var newPrice = parseInt(price);
+        var NamePro = document.getElementById("name" + id).textContent;
+
+        const cartItem = document.getElementById("cartItems");
+        cartItem.classList.remove('d-none');
+
+        if (newQuantity > 0) {
+            var item =
+            {
+                IdPro: idPro,
+                proName: NamePro,
+                price: newPrice,
+                quantity: newQuantity,
+                total: newPrice * newQuantity
+            };
+            if (cartItems.length === 0) {
+                cartItems.push(item);
+            }
+            else {
+                var exists = cartItems.some(function (cartItem) {
+                    return cartItem.IdPro === idPro;
+                });
+                if (exists) {
+                    var indexUpdate = cartItems.findIndex(function (cartItem) {
+                        return cartItem.IdPro === idPro;
+                    });
+                    if (indexUpdate !== (-1)) {
+                        cartItems[indexUpdate] = item;
+                        console.log(cartItems);
+                    }
+                    console.log("Id tồn tại trong mảng nên Update lại đối tượng trong cart.");
+                } else {
+                    cartItems.push(item);
+
+                    console.log("Id không tồn tại trong mảng nên thêm vào cart.");
+                }
+            }
+        }
+        //             lấy tổng giá
+        var prices = cartItems.map(function (cartItem) {
+            return cartItem.total;
+        })
+        totalPrice = prices.reduce(function (sum, a) {
+            return sum + a;
+        }, 0);
+        var value = parseInt(quantity.value);
+        value++;
+        quantity.value = value;
+        // cập nhật bảng giá bill
+
+        updateCart();
+
+
+    }
+    function updateCart() {
+
+        //  sort dữ liêu theo id
+
+        cartItems.sort(function (a, b) {
+            return a.IdPro - b.IdPro;
+        });
+        var tableBody = document.getElementById("cart-items");
+        tableBody.innerHTML = '';
+        if (priceField != 0) {
+            var row = document.createElement("tr");
+            var productNameCell = document.createElement("td");
+            productNameCell.textContent = "Sân";
+            row.appendChild(productNameCell);
+            var priceCell = document.createElement("td");
+            priceCell.textContent = priceField;
+            row.appendChild(priceCell);
+            var quantityCell = document.createElement("td");
+            quantityCell.textContent = 1;
+            row.appendChild(quantityCell);
+            var totalCell = document.createElement("td");
+            totalCell.textContent = priceField;
+            row.appendChild(totalCell);
+            tableBody.appendChild(row);
+        }
+        for (var i = 0; i < cartItems.length; i++) {
+            var item1 = cartItems[i];
+            var row = document.createElement("tr");
+            var productNameCell = document.createElement("td");
+            productNameCell.textContent = item1.proName;
+            row.appendChild(productNameCell);
+            var priceCell = document.createElement("td");
+            priceCell.textContent = item1.price;
+            row.appendChild(priceCell);
+            var quantityCell = document.createElement("td");
+            quantityCell.textContent = item1.quantity;
+            row.appendChild(quantityCell);
+            var totalCell = document.createElement("td");
+            totalCell.textContent = item1.total;
+            row.appendChild(totalCell);
+            tableBody.appendChild(row);
+        }
+        var totalAmountCell = document.getElementById("total-amount");
+        var resultTotal = parseInt(totalPrice) + parseInt(priceField);
+
+        var depositCell = document.getElementById("deposit-money");
+        var resultDesposit = parseInt(resultTotal) * 0.3;
+
+
+        totalAmountCell.textContent = resultTotal;
+        depositCell.textContent = resultDesposit;
+        ListId(resultTotal);
+
+
+    }
+    function ListId(resultTotal) {
+
+
+        var ListIdElement = document.getElementById("listId");
+        var html1 = "";
+        cartItems.forEach(function (cartem) {
+            html1 += '<input id="id' + cartem.IdPro + '" name="ProId" style = " display : none" value="' + cartem.IdPro + '" readonly >';
+        });
+        html1 += '<input id="TotalPrice" name="TotalPrice" style = " display : none" value="' + resultTotal + '" readonly >';
+        ListIdElement.innerHTML = html1;
+    }
+
+</script>

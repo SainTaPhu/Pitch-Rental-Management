@@ -1,0 +1,68 @@
+﻿@using System.Globalization;
+@model UnityComplex.ViewComponents.UserBookPayment
+@{
+    ViewData["Title"] = "ViewHistoryDetail";
+}
+
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Chi Tiết Lịch Sử Đặt Sân</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+<!--================Order Details Area =================-->
+<section class="order_details section_gap">
+    <div class="container">
+        <h3 class="title_confirmation">Lịch Sử Đặt Sân Chi Tiết</h3>
+        <div class="row order_d_inner">
+            <div class="col-lg-6">
+                <div class="details_item">
+                    <h4>Thông Tin Đơn Hàng</h4>
+
+                    @{
+                        string formattedDate1 = Model.Booking.Date?.ToString("dd/MM/yyyy") ?? string.Empty;
+                    }
+                    <ul class="list">
+                        <li><a href="#"><span>ID Đơn Hàng</span> : @Model.Booking.IdBooking</a></li>
+
+                        <li>
+                            <a href="#">
+                                <span>Đặt sân ngày </span> :  @formattedDate1
+                            </a>
+                        </li>
+                        @{
+                            int containsChar = Model.Payment.Deposit.ToString().IndexOf(".");
+                            string childString = Model.Payment.Deposit.ToString().Substring(0, containsChar);
+                        }
+                        <li><a href="#"><span>Tiền chuyển khoản</span> :  @childString</a></li>
+                        
+                        <li><a href="#"><span>Phương thức</span> : vnpay</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="details_item">
+                    <h4>Thông Tin Người Đặt</h4>
+
+                    <ul class="list">
+                        <li><a href="#"><span>Họ Và Tên</span> : @Model.user.FullName</a></li>
+                        <li><a href="#"><span>SDT</span> : @Model.user.PhoneNumber</a></li>
+                        <li><a href="#"><span>Email</span> : @Model.user.Email</a></li>
+                        <li><a href="#"><span>STK VNPAY </span> : 0868237043</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+</section>
+<!--================End Order Details Area =================-->
